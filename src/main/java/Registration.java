@@ -9,9 +9,9 @@ import static com.codeborne.selenide.Selenide.open;
 
 
 public class Registration {
-    
+
     @Test
-    public void registrationwihrequiredfields() {
+    public void registrationWithRequiredFields() {
         BasicConfigurator.configure();
         //System.setProperty("webdriver.chrome.driver","d:\\BARS_BIB_1.8\\TeachMeSkills\\chromedriver.exe");
         open("https://www.sharelane.com/cgi-bin/register.py?page=1&zip_code=11111");
